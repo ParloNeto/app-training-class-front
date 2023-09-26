@@ -1,0 +1,38 @@
+:host {
+  header {
+    
+    width: 100%;
+    background-color: #7412c4;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    ul {
+        
+      display: flex;
+      justify-content: space-between;
+      max-width: 300px;
+
+      li {
+        a {
+          box-sizing: border-box;
+          padding: 25px;
+          color: white;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 15px;
+
+          &:hover {
+            background-color: #6a11b3;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    width: 20%;
+  }
+}
