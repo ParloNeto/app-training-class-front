@@ -1,4 +1,4 @@
-import { Objectives } from "../enums/lose_weight";
+import { Objectives } from "../enums/objectives";
 
 export interface User {
     firstName: string;

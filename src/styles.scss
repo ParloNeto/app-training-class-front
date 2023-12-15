@@ -45,3 +45,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+	margin-top: 50px;
+	h1 {
+	  font-size: 25px;
+	  font-weight: 700;
+	  margin: 50px 0 10px;
+	}
+  
+	p {
+	  font-weight: 400;
+	  font-size: 20px;
+	}
+  
+	h1,
+	p {
+	  color: black;
+	}
+  }

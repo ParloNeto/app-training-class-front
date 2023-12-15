@@ -1,0 +1,45 @@
+<div class="container">
+  <!-- <ul>
+    <li>{{ fichaDeTreino.user.firstName }}</li>
+    <li>{{ fichaDeTreino.restTime }}</li>
+    <li>{{ fichaDeTreino.typeOfTraining }}</li>
+    <li *ngFor="let exercicios of treinoUm; ">{{ exercicios.exercise }} // {{exercicios.sets}} // {{exercicios.repetitions}}</li>
+    <li>{{ fichaDeTreino.startDate }}</li>
+    <li>{{ fichaDeTreino.finalDate }}</li>
+  </ul> -->
+  <div class="card">
+    <h2 class="card-title">Treino um</h2>
+    <div class="information-table-card">
+      <h2>Exercicios</h2>
+      <h2>Séries</h2>
+      <h2>Repetições</h2>
+    </div>
+
+  <ng-template ngFor let-treino [ngForOf]="treinoUm" ; let-i="index;">
+      <ul class="card-list">
+        <li class="card-exercise">{{ treino.exercise }}</li>
+        <li class="card-sets">{{ treino.sets }}</li>
+        <li class="card-repetitions">{{ treino.repetitions }}</li>
+      </ul>
+  </ng-template>
+  
+</div>
+
+<div class="card">
+  <h2 class="card-title">Treino dois</h2>
+  <div class="information-table-card">
+    <h2>Exercicios</h2>
+    <h2>Séries</h2>
+    <h2>Repetições</h2>
+  </div>
+
+<ng-template ngFor let-treino [ngForOf]="treinoDois" ; let-i="index;">
+    <ul class="card-list">
+      <li class="card-exercise">{{ treino.exercise }}</li>
+      <li class="card-sets">{{ treino.sets }}</li>
+      <li class="card-repetitions">{{ treino.repetitions }}</li>
+    </ul>
+</ng-template>
+
+</div>
+</div>

@@ -1,0 +1,359 @@
+{
+  "User": {
+    "firstName": "Paulo",
+    "lastName": "Neto",
+    "age": 20,
+    "goal": "Muscle Gain",
+    "weight": 90,
+    "height": 1.85
+  },
+  "Training": {
+    "exercise": "number",
+    "sets": "number",
+    "repetitions": ["Failure", "number"]
+  },
+  "DayOfTraining": {
+    "trainingOne": {
+      "exercises": [
+        {
+          "exercise": "Supino Inclinado Ht",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Supino Inclinado Barra",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Cross Over",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Pec dec",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Elevação Lateral",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Desenvolvimento Ht Banco 60º",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Elevação Frontal Polia",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Desenvolvimento Articulado Fechado",
+          "sets": 4,
+          "repetitions": 12
+        }
+      ],
+      "musclesWorked": "Peito e Ombro"
+    },
+    "trainingTwo": {
+      "exercises": [
+        {
+          "exercise": "Remada Curvada",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Remada Fechada Unilateral",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Puxador Aberto",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Puxador Supinado",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Pull Down Barra",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Rosca Scott W",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Rosca Concentrada",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Crucifixo Inverso",
+          "sets": 4,
+          "repetitions": 12
+        }
+      ],
+      "musclesWorked": "Costas e Biceps"
+    },
+    "trainingThree": {
+      "exercises": [
+        {
+          "exercise": "Agachamento Maquina",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Leg 45º",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Cadeira Extensora",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Mesa Flexora",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Elevação Quadril Máquina",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Triceps Corda",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Triceps Testa Ht",
+          "sets": 4,
+          "repetitions": 12
+        },
+        {
+          "exercise": "Triceps Francês Ht",
+          "sets": 4,
+          "repetitions": 12
+        }
+      ],
+      "musclesWorked": "Perna e Triceps"
+    },
+      "trainingOptional": {
+        "exercises": [
+          {
+            "exercise": "Abdominal Reto Declinado",
+            "sets": 4,
+            "repetitions": "Failure"
+          },
+          {
+            "exercise": "Abdominal Obliquos",
+            "sets": 4,
+            "repetitions": "Failure"
+          },
+          {
+            "exercise": "Abdominal Paralelas",
+            "sets": 4,
+            "repetitions": "Failure"
+          }
+        ],
+        "musclesWorked": "Abdominal"
+      }
+  },
+  "TypesOfTraining": {
+    "HYPERTROPHY": "Hypertrophy",
+    "STRENGTH_TRAINING": "Strength Training"
+  },
+  "Objectives": {
+    "LOSE_WEIGHT": "Lose Weight",
+    "MUSCLE_GAIN": "Muscle Gain",
+    "PHYSICAL_CONDITIONING": "Physical Conditioning"
+  },
+  "Failure": {
+    "FAILURE": "Failure"
+  },
+  "TrainingSheet": {
+    "id": 1,
+    "user": {
+      "firstName": "Paulo",
+      "lastName": "Neto",
+      "age": 20,
+      "goal": "Muscle Gain",
+      "weight": 90,
+      "height": 1.85
+    },
+    "restTime": 60,
+    "typeOfTraining": "Hypertrophy",
+    "trainings": [
+      {
+        "trainingOne": {
+          "exercises": [
+            {
+              "exercise": "Supino Inclinado Ht",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Supino Inclinado Barra",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Cross Over",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Pec dec",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Elevação Lateral",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Desenvolvimento Ht Banco 60º",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Elevação Frontal Polia",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Desenvolvimento Articulado Fechado",
+              "sets": 4,
+              "repetitions": 12
+            }
+          ],
+          "musclesWorked": "Peito e Ombro"
+        },
+        "trainingTwo": {
+          "exercises": [
+            {
+              "exercise": "Remada Curvada",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Remada Fechada Unilateral",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Puxador Aberto",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Puxador Supinado",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Pull Down Barra",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Rosca Scott W",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Rosca Concentrada",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Crucifixo Inverso",
+              "sets": 4,
+              "repetitions": 12
+            }
+          ],
+          "musclesWorked": "Costas e Biceps"
+        },
+        "trainingThree": {
+          "exercises": [
+            {
+              "exercise": "Agachamento Maquina",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Leg 45º",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Cadeira Extensora",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Mesa Flexora",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Elevação Quadril Máquina",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Triceps Corda",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Triceps Testa Ht",
+              "sets": 4,
+              "repetitions": 12
+            },
+            {
+              "exercise": "Triceps Francês Ht",
+              "sets": 4,
+              "repetitions": 12
+            }
+          ],
+          "musclesWorked": "Perna e Triceps"
+        },
+          "trainingOptional": {
+            "exercises": [
+              {
+                "exercise": "Abdominal Reto Declinado",
+                "sets": 4,
+                "repetitions": "Failure"
+              },
+              {
+                "exercise": "Abdominal Obliquos",
+                "sets": 4,
+                "repetitions": "Failure"
+              },
+              {
+                "exercise": "Abdominal Paralelas",
+                "sets": 4,
+                "repetitions": "Failure"
+              }
+            ],
+            "musclesWorked": "Abdominal"
+          }
+        
+      }
+    ],
+    "startDate": "24/09/2023",
+    "finalDate": "24/10/2023"
+  }
+}

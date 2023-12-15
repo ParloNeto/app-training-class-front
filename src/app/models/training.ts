@@ -1,5 +1,7 @@
+import { Failure } from "../enums/failure";
+
 export interface Training {
     exercise: string;
     sets: number;
-    repetitions: number;
+    repetitions: Failure | number;
 }

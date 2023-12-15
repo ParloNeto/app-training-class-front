@@ -1,0 +1,29 @@
+<div class="container">
+    <p>central-training works!</p>
+    <div>
+        <ng-template ngIf="fichaDeTreino" ngFor let-sheet [NgForOf]="fichaDeTreino";>
+            <ul>
+                <li>
+                    <p>Número da ficha: {{fichaDeTreino.id}}</p>
+                </li>
+                <li>
+                    <p>Usuário: {{fichaDeTreino.user.firstName}} {{fichaDeTreino.user.lastName}}</p>
+                </li>
+                <li>
+                   <p>Tempo de descanso: {{fichaDeTreino.restTime}} segundos.</p> 
+                </li>
+                <li>
+                    <p>Tipo de Treino: {{fichaDeTreino.typeOfTraining}}</p>
+                </li>
+                <li>
+                    {{fichaDeTreino.trainings}}
+                </li>
+                <li>
+                    {{fichaDeTreino.id}}
+                </li>
+            </ul>
+            
+        </ng-template>
+        
+    </div>
+</div>
