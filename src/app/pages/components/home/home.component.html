@@ -1,34 +1,25 @@
 <div class="container">
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, cum.
-  Excepturi modi ipsum eum, veritatis sed unde similique perferendis placeat
-  natus tempore consequatur quaerat adipisci! Voluptatem, voluptas voluptatibus.
-  Voluptate quisquam unde laudantium accusamus, assumenda debitis? Odit,
-  accusantium. Maiores voluptas harum deserunt cupiditate numquam corporis
-  doloremque beatae nam, libero magni deleniti fugit error sapiente consequatur
-  nostrum ducimus quod incidunt sed? Et nihil, neque reiciendis tempora illum
-  ullam libero exercitationem quisquam dolorum suscipit quod doloribus harum
-  reprehenderit alias nesciunt facere itaque soluta doloremque maiores porro
-  consequatur expedita quam dignissimos blanditiis! Quae, cumque. Aperiam in
-  itaque sequi aspernatur sed, architecto molestias perspiciatis dolorem quo
-  omnis fugit, expedita, dignissimos eum magnam id dolores! Maxime voluptate
-  quas rerum minima, incidunt repudiandae quidem eaque saepe voluptatem esse quo
-  labore atque animi omnis aliquam deleniti laboriosam tenetur quia delectus
-  natus sunt temporibus expedita doloremque et? Temporibus, porro eius,
-  molestiae magnam error illo libero voluptates nemo magni saepe, excepturi
-  deleniti fuga veritatis modi aliquid amet eveniet delectus nihil. Reiciendis,
-  doloremque repudiandae qui explicabo consequuntur sed veritatis. Commodi
-  consequatur distinctio eaque accusantium ullam iure repudiandae qui deserunt
-  placeat nisi voluptate sit illo omnis inventore, at minus amet odit eius
-  veritatis ea ipsam? Perspiciatis ipsa maxime iusto, explicabo repudiandae nam
-  nulla modi ab nesciunt? Quae a quasi impedit, assumenda soluta aspernatur vel
-  ducimus voluptas, excepturi delectus dolorum exercitationem alias magnam
-  voluptatem harum fugiat provident incidunt? Consectetur harum officiis atque
-  eius, quibusdam ipsum sed iure. Beatae molestias soluta pariatur aliquid
-  voluptatibus, accusamus exercitationem voluptas alias quisquam! Harum odit
-  blanditiis aperiam obcaecati incidunt inventore eos molestias. Repudiandae
-  veritatis omnis natus quam officia unde dolorem! Atque consequuntur maiores
-  officiis harum! Ad accusamus, voluptates tempora delectus dicta repudiandae
-  laboriosam, aliquid ab cupiditate libero a dolorem aliquam animi quam deleniti
-  nostrum nihil consequatur! Ratione et omnis illum ducimus.
-</p>
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>dialpad</mat-icon>
+      <span>Redial</span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>voicemail</mat-icon>
+      <span>Check voice mail</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>notifications_off</mat-icon>
+      <span>Disable alerts</span>
+    </button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+    
 </div>
