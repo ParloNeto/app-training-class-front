@@ -6,6 +6,7 @@ import { CentralTrainingComponent } from './components/central-training/central-
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -19,7 +20,8 @@ import {MatIconModule} from '@angular/material/icon';
     CommonModule,
     MatTabsModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule
   ],
   exports: [
     HomeComponent,
