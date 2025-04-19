@@ -3,9 +3,10 @@ import { TrainingSheet } from 'src/app/models/training_sheet';
 import { TrainingSheetService } from 'src/app/services/training-sheet.service';
 
 @Component({
-  selector: 'app-central-training',
-  templateUrl: './central-training.component.html',
-  styleUrls: ['./central-training.component.scss']
+    selector: 'app-central-training',
+    templateUrl: './central-training.component.html',
+    styleUrls: ['./central-training.component.scss'],
+    standalone: false
 })
 export class CentralTrainingComponent implements OnInit{
 

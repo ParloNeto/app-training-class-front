@@ -7,9 +7,10 @@ import { DayOfTraining } from 'src/app/models/day_of_training';
 import { Training } from 'src/app/models/training';
 
 @Component({
-  selector: 'app-list-training',
-  templateUrl: './list-training.component.html',
-  styleUrls: ['./list-training.component.scss']
+    selector: 'app-list-training',
+    templateUrl: './list-training.component.html',
+    styleUrls: ['./list-training.component.scss'],
+    standalone: false
 })
 export class ListTrainingComponent implements OnInit {
 
